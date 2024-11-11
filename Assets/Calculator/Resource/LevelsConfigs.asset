@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7427721c892f4a83841525caedd6e044, type: 3}
+  m_Name: LevelsConfigs
+  m_EditorClassIdentifier: 
+  _numbersConfig:
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 2
+    _targetNumber: 10
+    _valueOne: 5
+    _valueTwo: 3
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 6
+    _targetNumber: 36
+    _valueOne: 6
+    _valueTwo: 4
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 2
+    _targetNumber: 50
+    _valueOne: 40
+    _valueTwo: 10
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 9
+    _targetNumber: 27
+    _valueOne: 9
+    _valueTwo: 3
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 6
+    _targetNumber: 36
+    _valueOne: 6
+    _valueTwo: 4
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 8
+    _targetNumber: 48
+    _valueOne: 8
+    _valueTwo: 7
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 5
+    _targetNumber: 100
+    _valueOne: 20
+    _valueTwo: 10
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 2
+    _targetNumber: 24
+    _valueOne: 23
+    _valueTwo: 1
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 10
+    _targetNumber: 100
+    _valueOne: 10
+    _valueTwo: 20
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 4
+    _targetNumber: 200
+    _valueOne: 50
+    _valueTwo: 25
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 2
+    _targetNumber: 39
+    _valueOne: 33
+    _valueTwo: 6
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 9
+    _targetNumber: 45
+    _valueOne: 5
+    _valueTwo: 3
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 2
+    _targetNumber: 66
+    _valueOne: 33
+    _valueTwo: 8
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 30
+    _targetNumber: 90
+    _valueOne: 3
+    _valueTwo: 25
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 10
+    _targetNumber: 250
+    _valueOne: 25
+    _valueTwo: 15
+  - _cellsConfig: {fileID: 11400000, guid: 2ffab6b6a8d4df648b7da996df126c18, type: 2}
+    _steps: 10
+    _targetNumber: 100
+    _valueOne: 10
+    _valueTwo: 8
+  _arithmetics:
+  - _cellsConfigs: {fileID: 11400000, guid: 51899752b20c7514c9d6f04e481439d3, type: 2}
+    _equation: _x_=9
+    _targetNumberOne: 3
+    _targetNumberTwo: 3
+    _numberOne: 6
+    _numberTwo: 7
+  - _cellsConfigs: {fileID: 11400000, guid: 51899752b20c7514c9d6f04e481439d3, type: 2}
+    _equation: _x_=36
+    _targetNumberOne: 6
+    _targetNumberTwo: 6
+    _numberOne: 2
+    _numberTwo: 4
+  - _cellsConfigs: {fileID: 11400000, guid: 51899752b20c7514c9d6f04e481439d3, type: 2}
+    _equation: _+_=14
+    _targetNumberOne: 7
+    _targetNumberTwo: 7
+    _numberOne: 4
+    _numberTwo: 9
+  - _cellsConfigs: {fileID: 11400000, guid: 51899752b20c7514c9d6f04e481439d3, type: 2}
+    _equation: _x_=6
+    _targetNumberOne: 9
+    _targetNumberTwo: 3
+    _numberOne: 6
+    _numberTwo: 7
+  - _cellsConfigs: {fileID: 11400000, guid: 51899752b20c7514c9d6f04e481439d3, type: 2}
+    _equation: _x_=54
+    _targetNumberOne: 6
+    _targetNumberTwo: 9
+    _numberOne: 4
+    _numberTwo: 1
+  - _cellsConfigs: {fileID: 11400000, guid: 51899752b20c7514c9d6f04e481439d3, type: 2}
+    _equation: _x_=9
+    _targetNumberOne: 3
+    _targetNumberTwo: 3
+    _numberOne: 6
+    _numberTwo: 7
+  - _cellsConfigs: {fileID: 11400000, guid: 51899752b20c7514c9d6f04e481439d3, type: 2}
+    _equation: _x_=45
+    _targetNumberOne: 5
+    _targetNumberTwo: 9
+    _numberOne: 4
+    _numberTwo: 2
+  - _cellsConfigs: {fileID: 11400000, guid: 51899752b20c7514c9d6f04e481439d3, type: 2}
+    _equation: _x_=912
+    _targetNumberOne: 6
+    _targetNumberTwo: 2
+    _numberOne: 5
+    _numberTwo: 7
+  - _cellsConfigs: {fileID: 11400000, guid: 51899752b20c7514c9d6f04e481439d3, type: 2}
+    _equation: _x_=14
+    _targetNumberOne: 12
+    _targetNumberTwo: 4
+    _numberOne: 6
+    _numberTwo: 7
+  - _cellsConfigs: {fileID: 11400000, guid: 51899752b20c7514c9d6f04e481439d3, type: 2}
+    _equation: _x_=18
+    _targetNumberOne: 3
+    _targetNumberTwo: 5
+    _numberOne: 1
+    _numberTwo: 9
+  ActiveNumberConfig: 0
+  ActiveArithmeticsConfig: 0
